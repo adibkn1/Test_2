@@ -26,7 +26,7 @@ import {
   }
       
     // Load the specified lens group.
-    const { lenses } = await cameraKit.lensRepository.loadLensGroups(['6233ba89-977d-4d59-8ceb-97b4a8466794'])
+    const { lenses } = await cameraKit.lensRepository.loadLensGroups(['f6ec2d36-229a-49c7-ba9d-847d7f287515'])
     console.log('Loaded Lenses:', lenses);
 
     // Apply the first lens in the lens group to the CameraKit session.
