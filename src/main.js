@@ -46,7 +46,7 @@ import {
     await session.setSource(source);
   
     // Set the render size of the CameraKit session to the size of the browser window.
-    session.source.setRenderSize( window.innerWidth,  window.innerHeight);
+    session.source.setRenderSize(3840, 2160); // 4K resolution (adjust as needed)
   
     // Start the CameraKit session.
     session.play(); 
